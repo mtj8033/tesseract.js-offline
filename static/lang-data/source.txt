@@ -1,0 +1,2 @@
+micr.traineddata = TesseractMicr-3 from google groups: https://groups.google.com/forum/?fromgroups#!searchin/tesseract-ocr/micr/tesseract-ocr/obWI4cz8rXg/_Yl8RuCeJAkJ
+mcr.traineddata = = TesseractMicr from google groups: https://groups.google.com/forum/?fromgroups#!searchin/tesseract-ocr/micr/tesseract-ocr/obWI4cz8rXg/_Yl8RuCeJAkJ
