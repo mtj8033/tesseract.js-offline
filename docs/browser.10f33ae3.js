@@ -444,4 +444,4 @@ var e=require("./highlight");e.registerLanguage("1c",require("./languages/1c")),
 },{"tesseract.js":"W8hG","highlight.js":"u5NY"}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("./setupTesseract");(0,e.setupTesseract)();
 },{"./setupTesseract":"08tZ"}]},{},["Focm"], null)
-//# sourceMappingURL=c:/Program%20Files/Git/tesseract.js/browser.10f33ae3.js.map
+//# sourceMappingURL=c:/Program%20Files/Git/tesseract.js-offline/browser.10f33ae3.js.map
