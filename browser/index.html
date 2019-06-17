@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Tesseract.js Offline</title>
   <script src="../node_modules/tesseract.js/dist/tesseract.min.js"></script>
   <script defer src="index.js"></script>
 </head>
+
 <body>
   <pre><code id="results" class="prettyprint"></code></pre>
   <div id="timing"></div>
+
+  <h1>Capturing every 300 milliseconds</h1>
+  <h2>grabFrame()</h2>
+  <p><canvas id="frame" width="640" height="480"></canvas></p>
+  <h2>takePhoto() with post-processing ("Avatar" mix)</h2>
+  <p><img id="photo" src=""></p>
+  <button id="stop">Stop frame grab</button>
+
+  <!--
+
+<div id="overlay" style="
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    /* margin-left: 225px; */
+    width: 80%;
+    height: 60%;
+    /* background: blue; */
+    border: 4px dotted red;
+    z-index: 2147483647;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+">&nbsp;<div id="overlay" style="
+    position: relative;
+    /* top: 20%; */
+    /* left: 10%; */
+    /* margin-left: 225px; */
+    /* width: 100%; */
+    height: 20%;
+    /* background: blue; */
+    border: 2px solid red;
+    /* z-index: 2147483647; */
+    /* top: 94%; */
+    margin: 5px;
+"></div></div>
+
+  -->
 </body>
+
 </html>
